@@ -1,0 +1,2 @@
+controller:
+accepts http requests, form validation logic, user authentication and sends a response to the user
