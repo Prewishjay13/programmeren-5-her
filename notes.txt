@@ -1,2 +1,11 @@
 controller:
-accepts http requests, form validation logic, user authentication and sends a response to the user
+Creating a controller: php artisan make:controller <name> -->php artisan make:controller PostsController --resource -->> php artisan:make PostsController
+accepts http requests, 
+form validation logic, 
+user authentication (gets info from a database to check if the credentials match)
+input validation(where i.e. numbers should be added are  added)
+and sends a response to the user
+
+http request from the front end is recieved and once the data from the databse is retrieved from the model
+after that data is sent back to the view
+
