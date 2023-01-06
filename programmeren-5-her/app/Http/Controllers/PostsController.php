@@ -8,9 +8,10 @@ class PostsController extends Controller
 {
     /**
      * Display a listing of the resource.
-     *
+     * 
      * @return \Illuminate\Http\Response
      */
+    //index shows all posts!
     public function index()
     {
         //
@@ -43,6 +44,7 @@ class PostsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
+    //show only shows one post!!!
     public function show($id)
     {
         //
