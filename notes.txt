@@ -9,4 +9,5 @@ and sends a response to the user
 http request from the front end is recieved and once the data from the databse is retrieved from the model
 after that data is sent back to the view
 
-single action controllers: 
+routes name addable (dary)
+headers(trav)
