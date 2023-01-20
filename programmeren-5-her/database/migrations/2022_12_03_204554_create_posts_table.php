@@ -16,8 +16,11 @@ return new class extends Migration
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
             $table->string('title')->unique();
-            $table->text('excerpt')->nullable();
-            $table->text('body');
+            $table->text('tags')->nullable();
+            $table->text('company');
+            $table->text('description');
+            $table->text('adress');
+            $table->text('email');
             $table->text('image_path');
             $table->timestamps();
         });
