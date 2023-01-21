@@ -11,6 +11,6 @@ after that data is sent back to the view
 
 routes name addable (dary)
 headers(trav)
-
+run: php artisan make:auth
 refreshen van migrations
 php artisan migrate:refresh
