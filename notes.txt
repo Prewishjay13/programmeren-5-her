@@ -11,6 +11,13 @@ after that data is sent back to the view
 
 routes name addable (dary)
 headers(trav)
+
+You have to use php artisan ui:auth instead of php artisan make:auth . Before using that you have to install new dependencies by calling composer require laravel/ui --dev in the current directory.
 run: php artisan make:auth
+npm -v
+node -v
+npm install
+node install
+
 refreshen van migrations
 php artisan migrate:refresh
