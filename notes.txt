@@ -1,3 +1,4 @@
+tutorial: https://www.youtube.com/watch?v=ImtZ5yENzgE&ab_channel=freeCodeCamp.org
 controller:
 Creating a controller: php artisan make:controller <name> -->php artisan make:controller PostsController --resource -->> php artisan:make PostsController
 accepts http requests, 
@@ -21,3 +22,17 @@ node install
 
 refreshen van migrations
 php artisan migrate:refresh
+
+migration: is a file that holds all the instructions to create itself
+
+model:
+
+Controller:
+
+View:
+
+Owasp10:
+
+Otap:
+
+How to protect against sql injections?
